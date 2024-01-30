@@ -14,7 +14,7 @@ setwd("/Users/tphendrickson/Documents/Plastics Data/BioSiting Plots")
 
 # Load tract data for plastic waste flows to the nearest MRF
 # Data reflects for each tract what the nearest MRF is, and what the waste flows (short tons per day) are at that MRF
-# Original data came from Tyler Huntington (plastics_recovered_by_us_census_tract.csv)
+# Original data came from python code for finding nearest MRF
 Tract_MRF_data = read.csv("plastics_recovered_by_us_census_tract_short.csv", header = TRUE)
 
 # Recast GEOID column to character to repair data
