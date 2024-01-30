@@ -15,6 +15,7 @@ os.chdir('/Users/tphendrickson/Documents/Plastics Data/Plastics-MRF Mapping')
 
 def main():
     # Import tl_2017_06_tabblock10.shp from zip file tl_2017_06_tabblock10 of census block information
+    # Shapefile from US Census Bureau
     # column with polygon information is named geometry
     print('Loading census tract data...')
     census_data = from_geofeather('data/intermediate/cb_2019_us_tract_500k.feather') #change path if needed
