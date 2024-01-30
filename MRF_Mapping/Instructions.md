@@ -1,4 +1,4 @@
-Python code for finding closest Material Recovery Facility (MRF) to each census tract.
+Code for finding and plotting closest Material Recovery Facility (MRF) to each census tract.
 
 Note that MRF survey data is for purchase from Governmental Advisory Associates and is not included here.
 
